@@ -1,0 +1,13 @@
+create database prebooq;
+use prebooq;
+create table profile(Sno int(5) not null primary Key auto_increment,name varchar(50),PhoneNum bigint(10),email varchar(50),Password varchar(30),District varchar(40),Sex char(1));
+create table books(Sno int(5) not null primary Key auto_increment,Name varchar(50),type Varchar(10),author varchar(30),Genre varchar(40),timeP varchar(20),status varchar(10),name_lender varchar(50),contact bigInt(10),email varchar(50),lenderno int(5));
+create table Trans(Orderno int(5) primary key auto_increment,name varchar(50),author varchar(50),type varchar(20),timep varchar(30), lender int(3),borrower int(3), time date, Constraint fkey1 foreign key(lender) references profile(sno),Constraint fkey2 foreign key(borrower) references profile(sno));
+ insert into books(Name,Type,author,Genre,timeP,status,name_lender,contact,email,lenderno) values('The girl who knew too much','NSB','Vikrant Khanna','Thriller',30,'A','Pratyus',2567445,'baspratyus@gm',1);
+  insert into books(Name,Type,author,Genre,timeP,status,name_lender,contact,email,lenderno) values('Something I never told you','NSB','Shravya Bhinder','Drama',42,'A','Pratyus',2567445,'baspratyus@gm',1);
+   insert into books(Name,Type,author,Genre,timeP,status,name_lender,contact,email,lenderno) values('Becoming','NSB','Michelle Obama','Biography',30,'A','Pratyus',2567445,'baspratyus@gm',1);
+    insert into books(Name,Type,author,Genre,timeP,status,name_lender,contact,email,lenderno) values('An Anyonymous Girl','NSB','Greer Hendricks','Thriller, Drama',90,'A','Pratyus',2567445,'baspratyus@gm',1);
+	 insert into books(Name,Type,author,Genre,timeP,status,name_lender,contact,email,lenderno) values('The water cure','NSB','Sophie Mackintosh','Fiction',60,'A','Pratyus',2567445,'baspratyus@gm',1);
+	  insert into books(Name,Type,author,Genre,timeP,status,name_lender,contact,email,lenderno) values('The lost girl of Paris','NSB','Pam Jenoff','Fantasy',30,'A','Pratyus',2567445,'baspratyus@gm',1);
+	   insert into books(Name,Type,author,Genre,timeP,status,name_lender,contact,email,lenderno) values('The night Tiger','NSB','Yangsze choo','Thriller',30,'A','Pratyus',2567445,'baspratyus@gm',1);
+	    insert into books(Name,Type,author,Genre,timeP,status,name_lender,contact,email,lenderno) values('The suspect','NSB','Fiona Barton','Action,Thriller,Drama',90,'A','Pratyus',2567445,'baspratyus@gm',1);
