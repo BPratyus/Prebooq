@@ -21,30 +21,32 @@ Expand your social circle and make lasting connections with students who share s
 Navigating through Prebooq is a breeze with its intuitive user interface. Our app ensures a seamless and enjoyable experience, making it easy to search for books, request borrowing, and communicate with fellow students.
 
 # Overview
-*FrontEnd - Java on Netbeans
-*Backend - MySQL
+* FrontEnd - Java on Netbeans
+* Backend - MySQL
 
 ## Demo
 ### Sign-in Page
-
+![](Images/login_page.PNG)
 ### Registration Page
-
+![](Images/Reg_Page.PNG)
 ### Home Page
-
+![](Images/home_tab.PNG)
 ### Upload Tab
-
+![](Images/upload_tab.PNG)
 ### Search Tab
-
+![](Images/search_Tab.PNG)
 ### History Tab
-
-### History of Lending
+![](Images/History_tab.PNG)
 
 ## Database Schema
-*Table- Profile
+* Table- Profile
+![](Images/profile_schema.PNG)
 
-*Table- Book
+* Table- Book
+![](Images/books_schema.PNG)
 
-*Table- Transaction
+* Table- Transaction
+![](Images/transactions_table.PNG)
 
 ## Form Structure
-
+![](Images/Hierarchy.PNG)
