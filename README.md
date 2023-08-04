@@ -23,7 +23,15 @@ Navigating through Prebooq is a breeze with its intuitive user interface. Our ap
 # Overview
 * FrontEnd - Java on Netbeans
 * Backend - MySQL
-
+> [!IMPORTANT]
+> 
+> This app was made using ***Java Swing Framework***  and a local *MySQL* DB
+> 
+> The required JAR Files can be found [here](dist/lib)
+> 
+> The Distributable build can be found under dist as [Prebooq.jar](dist)  and needs a Java(TM) SE Runtime Environment (build 14.0.1+7) or above running on the machine
+>
+ 
 ## Demo
 - ## [Sign-in Page](src/LoginP.java)
 ![](Images/login_page.PNG)
