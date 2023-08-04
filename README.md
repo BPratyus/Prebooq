@@ -25,20 +25,23 @@ Navigating through Prebooq is a breeze with its intuitive user interface. Our ap
 * Backend - MySQL
 
 ## Demo
-### Sign-in Page
+- ## [Sign-in Page](src/LoginP.java)
 ![](Images/login_page.PNG)
-### Registration Page
+- ## [Registration Page](src/RegisterPg.java)
 ![](Images/Reg_Page.PNG)
-### Home Page
+- ## [Home Page](src/HomePg.java)
 ![](Images/home_tab.PNG)
-### Upload Tab
+  - ### Upload Tab
 ![](Images/upload_tab.PNG)
-### Search Tab
+  - ### Search Tab
 ![](Images/search_Tab.PNG)
-### History Tab
+  - ### History Tab
 ![](Images/History_tab.png)
 
 ## Database Schema
+> [!NOTE]
+> Use the [SQL Commands](Sql_commands), copy and paste them to create the DB and related tables and queries
+
 * Table- Profile
   
 ![](Images/profile_schema.PNG)
