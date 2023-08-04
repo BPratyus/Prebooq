@@ -29,7 +29,7 @@ Navigating through Prebooq is a breeze with its intuitive user interface. Our ap
 > 
 > The required JAR Files can be found [here](dist/lib)
 > 
-> The Distributable build can be found under dist as [Prebooq.jar](dist)  and needs a Java(TM) SE Runtime Environment (build 14.0.1+7) or above running on the machine
+> The Distributable build can be found under dist as [Prebooq.jar](dist)  and needs a `Java(TM) SE Runtime Environment (build 14.0.1+7)` or above running on the machine
 >
  
 ## Demo
