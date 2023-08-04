@@ -36,16 +36,19 @@ Navigating through Prebooq is a breeze with its intuitive user interface. Our ap
 ### Search Tab
 ![](Images/search_Tab.PNG)
 ### History Tab
-![](Images/History_tab.PNG)
+![](Images/History_tab.png)
 
 ## Database Schema
 * Table- Profile
+  
 ![](Images/profile_schema.PNG)
 
 * Table- Book
+  
 ![](Images/books_schema.PNG)
 
 * Table- Transaction
+
 ![](Images/transactions_table.PNG)
 
 ## Form Structure
