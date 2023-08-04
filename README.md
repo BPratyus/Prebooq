@@ -20,3 +20,31 @@ Expand your social circle and make lasting connections with students who share s
 **5. User-Friendly Interface:**
 Navigating through Prebooq is a breeze with its intuitive user interface. Our app ensures a seamless and enjoyable experience, making it easy to search for books, request borrowing, and communicate with fellow students.
 
+# Overview
+*FrontEnd - Java on Netbeans
+*Backend - MySQL
+
+## Demo
+### Sign-in Page
+
+### Registration Page
+
+### Home Page
+
+### Upload Tab
+
+### Search Tab
+
+### History Tab
+
+### History of Lending
+
+## Database Schema
+*Table- Profile
+
+*Table- Book
+
+*Table- Transaction
+
+## Form Structure
+
